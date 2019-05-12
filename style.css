@@ -1,0 +1,31 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.colourBtn {
+    font-size: 1.5rem;
+    padding: 0.25rem 0.5rem;
+    border: 3px solid white;
+    border-radius: 7px solid;
+    color:black;
+    background-color: pink;
+    cursor: pointer;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.colourBtn:hover{
+    background-color:papayawhip;
+}
+
+.hexColour {
+    text-transform: capitalize;
+}
